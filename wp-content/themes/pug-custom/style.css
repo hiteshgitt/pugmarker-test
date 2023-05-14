@@ -1,0 +1,247 @@
+/*
+Theme Name: Pug Custom
+Theme URI: https://abc.com
+Author: hitesh
+Author URI: https://wordpress.org/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.3
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,800;0,900;1,400;1,700&display=swap');
+
+body{
+    font-family: 'poppins';
+    color: #000;
+}
+.content h2 {
+    color: #1E3892;
+}
+.header{
+        display: flex;
+        justify-content: space-evenly;
+}
+ul#menu-header-menu {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+ul#menu-header-menu a {
+    text-decoration: none;
+    color: #333333;
+}
+ul#menu-header-menu a:hover {
+    border-top:6px solid #FFCF4E;
+    color: #1E3892;
+}
+ul#menu-header-menu a:active {
+    border-top: 6px solid #FFCF4E;
+    color: #1E3892;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+        justify-content: space-around;
+}
+.card-group {
+    width: 46%;
+    border-radius:8px;
+}
+.event-image img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    width: 100%;
+    height: auto;
+}
+.card2 {
+    display: flex;
+    gap: 2rem;
+    padding: 20px;
+}
+.dandt {
+    display: flex;
+}
+.card-group2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: flex-start;
+}
+.event-image {
+    width: 100%;
+}
+p.bookbtn a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 4px solid #FFBE36;
+    color: #000000;
+}
+p.bookbtn {
+    margin-top: 2rem;
+}
+.card-group {
+    box-shadow: 0px 8px 20px #00000038;
+    border: 1px solid #EAEAEA;
+    
+}
+.card-group2 {
+    box-shadow: 0px 8px 20px #00000038;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+
+}
+
+.content-ie {
+    padding: 20px;
+}
+.content-ie h2 a {
+    text-decoration: none;
+    color: #000000;
+}
+p {
+    color: #3B3B3B;
+}
+p.locationp {
+    margin: 0;
+}
+.event-section{
+    background-image: url(http://localhost/Pugmarker-test/wp-content/uploads/2023/05/bg.png);
+    }
+h2.main-heading {
+            text-align: center;
+            padding: 50px 10px;
+                font-size: 28px;
+                    font-weight: 900;
+        }
+.card2 {
+    background-image: url(http://localhost/Pugmarker-test/wp-content/uploads/2023/05/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    padding-bottom: 14rem;
+}
+.services {
+gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serviceheading {
+    font-size: 50px;
+    color: #1E3892;
+}
+.serviceheading h2 {
+    padding: 20px 56px;
+}
+.servicepoints div {
+    display: flex;
+    align-content: center;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+}
+.footer p {
+    text-align: center;
+    background: #182C73;
+    color: #DBDBDB;
+    padding: 30px 20px;
+}
+.plan {
+    background: #1E3892;
+        color: #ffffff;
+        margin: 100px 150px;
+        border-radius: 22px;
+        padding: 50px;
+        text-align: center;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+    }
+.plan-points div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+}
+.plan-points {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: #fff;
+}
+.plan-points p {
+    color: #fff;
+}
+.plan-content p {
+    color: #fff;
+}
+.arrow {
+    border: solid #fff;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 23px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.journey p {
+    color: #000000;
+    font-weight: 700;
+    background: #FFBE26;
+    padding: 20px 30px;
+}
+.view-all {
+    color: #000000;
+    font-weight: 700;
+    position: relative;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    top: -156px;
+}
+.view-all p {
+    background: #FFBE26;
+    padding: 20px 30px;
+}
+.view-all p a{
+        color: #000;
+        text-decoration: none;}
+        .login p {
+            color: #1E3892;
+border-bottom: 4px solid #1E3892;
+            font-weight: 700;
+        }
+.login {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+p.locationp {
+    display: flex;
+}
+.logo a {
+    color: #000;
+    text-decoration: none;
+}
+.servicepoints p {
+    font-weight: 600;
+}
+/* @media screen and (min-width: 500px){
+    .plan-points {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            color: #fff;
+            flex-direction: column;
+        }
+        i.arrow.right {
+                    display: none;
+                }
+} */
